@@ -96,6 +96,6 @@ The simulation waveform below shows the successful transmission of the bytes `0x
 
 This core provides a solid foundation. Here are some potential next steps:
 
--   **Full UART Peripheral:** The corresponding [UART Receiver (RX) module](https://github.com/your-username/uart_rx_rtl) has also been designed. These two modules can be integrated to form a complete UART peripheral.
+-   **Full UART Peripheral:** The corresponding [UART Receiver (RX) module](https://github.com/AnishDey27/uart_rx_rtl) has also been designed. These two modules can be integrated to form a complete UART peripheral.
 -   **FIFO Buffer:** Adding an input FIFO would allow a master to write a burst of data, decoupling it from the slow UART transmission speed.
 -   **Standard Bus Interface:** Wrapping the complete UART with an APB or AXI4-Lite slave interface to make it a memory-mapped peripheral for an SoC.
